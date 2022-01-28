@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    background-color: #212529;
+    width: 100%;
+    padding: 17px 150px;
+    position: fixed;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header .menu-item {
+    color: rgba(255, 255, 255, 0.55);
+    transition: color 0.15s;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+#header .menu-item:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#header .logo {
+    font-size: 1.25rem;
+    color: #fff;
+    margin-right: 730px;
+}
+
+#first {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    background-color: rgba(13, 110, 253, 1);
+    text-align: center;
+    padding: 130px;
+}
+
+#first h1{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+}
+
+#first p{
+    color: #fff;
+    margin-bottom: 1.7rem;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+#first a{
+    text-decoration: none;
+    color: #000;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+#about, #services, #contact{
+    padding: 11% 24% 11% 24%;
+    color: #212529;
+}
+
+#about h2, #services h2, #contact h2{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+#about p, #services p, #contact p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+#about ul{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    line-height: 1.5rem;
+}
+
+#about ul li{
+    font-size: 1rem;
+}
+
+#services{
+    background-color: #F8F9FA;
+}
+
+#footer{
+    background-color: #212529;
+    padding: 48px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
