@@ -43,21 +43,21 @@ html {
     padding: 130px;
 }
 
-#first h1{
+#first h1 {
     color: #fff;
     font-weight: bolder;
     font-size: 2.5rem;
     margin-bottom: 8px;
 }
 
-#first p{
+#first p {
     color: #fff;
     margin-bottom: 1.7rem;
     font-weight: 300;
     font-size: 1.25rem;
 }
 
-#first a{
+#first a {
     text-decoration: none;
     color: #000;
     background-color: #f8f9fa;
@@ -68,12 +68,16 @@ html {
     line-height: 1.5;
 }
 
-#about, #services, #contact{
+#about,
+#services,
+#contact {
     padding: 11% 24% 11% 24%;
     color: #212529;
 }
 
-#about h2, #services h2, #contact h2{
+#about h2,
+#services h2,
+#contact h2 {
     font-size: 2rem;
     font-weight: 500;
     line-height: 1.2;
@@ -81,7 +85,9 @@ html {
     margin-bottom: 0.5rem;
 }
 
-#about p, #services p, #contact p{
+#about p,
+#services p,
+#contact p {
     font-size: 1.25rem;
     font-weight: 300;
     margin-top: 0;
@@ -89,22 +95,22 @@ html {
     line-height: 1.5;
 }
 
-#about ul{
+#about ul {
     margin-top: 0;
     margin-bottom: 1rem;
     padding-left: 2rem;
     line-height: 1.5rem;
 }
 
-#about ul li{
+#about ul li {
     font-size: 1rem;
 }
 
-#services{
+#services {
     background-color: #F8F9FA;
 }
 
-#footer{
+#footer {
     background-color: #212529;
     padding: 48px 0;
     text-align: center;
